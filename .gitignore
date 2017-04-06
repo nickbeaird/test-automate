@@ -1,6 +1,3 @@
-# ignore folder
-
+# ignore folders and files
 node_modules
-
-#ignore that folder. how to remove??
-.vagrant
+.vagrant/
