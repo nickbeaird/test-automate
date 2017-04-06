@@ -1,2 +1,3 @@
 # ignore all that
 node_modules
+.vagrant
