@@ -7,6 +7,6 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: "echo hello you are up and running"
   config.vm.provision "shell", path: "start.sh"
 
-  config.vm.network "forwarded_port", guest: 3000, host: 3000
+  config.vm.network "forwarded_port", guest: 3001, host: 3001
 
 end
